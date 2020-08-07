@@ -89,7 +89,7 @@ function draw() {
   text("Score: "+ count, 250, 100);
   console.log(gameState);
   
-  camera.position.x=displayWidth/8;
+  //camera.position.x=displayWidth/8;
   
   if(gameState === PLAY){
     //move the ground
